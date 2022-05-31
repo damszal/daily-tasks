@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #212121;
+  color: white;
+}
+
+.container {
+  height: max-content;
+  width: 1024px;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+.header {
+  height: 80px;
+  background-color: #5c5c5c;
+}
+
+.hero-video {
+  height: 600px;
+  background-color: #5e5454;
+}
+
+.someContent1 {
+  height: 200px;
+  background-color: #9d9595;
+}
+
+.someContent2Grid {
+  height: 400px;
+  background-color: #e9e8e8;
+}
+
+.shoops-logos {
+  height: 260px;
+  background-color: cadetblue;
+}
+
+.photo-grid {
+  height: 600px;
+  background-color: #9e7d6c;
+}
+
+.subscribe {
+  height: 300;
+  background-color: #645046;
+}
+
+.footer {
+  height: 250px;
+  background-color: #6ad1be;
+}
+
+/*# sourceMappingURL=main.css.map */

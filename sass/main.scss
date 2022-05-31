@@ -1,0 +1,69 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
+
+}
+
+.container{
+  height: max-content;
+  width: 1024px;
+
+  margin: 0 auto ;
+
+  border: 2px solid rgb(255, 255, 255) ;
+}
+
+.header {
+  height: 80px;
+
+  background-color: rgb(92, 92, 92);
+}
+
+.hero-video{
+  height: 600px;
+
+  background-color: rgb(94, 84, 84);
+}
+
+.someContent1 {
+  height: 200px;
+
+  background-color: rgb(157, 149, 149);
+}
+
+.someContent2Grid{
+  height: 400px;
+
+  background-color: rgb(233, 232, 232);
+}
+
+.shoops-logos{
+  height: 260px;
+
+  background-color: cadetblue;
+}
+
+.photo-grid{
+  height: 600px;
+
+  background-color: rgb(158, 125, 108);
+}
+
+.subscribe{
+  height: 300;
+
+  background-color: rgb(100, 80, 70);
+}
+
+.footer{
+  height: 250px;
+
+  background-color: rgb(106, 209, 190);
+}
