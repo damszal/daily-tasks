@@ -11,114 +11,49 @@ body{
 
 }
 
-.container{
+.section-1 {
   height: max-content;
-  width: 1024px;
-
-  margin: 0 auto ;
-
-  border: 2px solid rgb(255, 255, 255) ;
-}
-
-.header {
-  height: 80px;
-
-  background-color: rgb(92, 92, 92);
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo{
-  width: 100px;
-  height: 80px;
-
-  background-color: red;
+  width: 100vw;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
 }
 
 .title{
-  width: 100px;
-  height: 80px;
-
-  background-color: green;
+  width: 100vw;
+  text-align: center;
 }
 
-.mainManu{
-  width: 100%;
-  background-color: yellow;
+.links{
+  width: 100vw;
+  text-align: center;
 }
 
-.search-icon{
-  width: 40px;
-  height: 40px;
-  
-  background-color: blue;
+.links ul li {
+  display: inline-block;
 }
 
-.hero-video{
+.container{
+  margin: 0 auto;
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    border: 2px solid white;
+}
+
+.main-section{
+  width: 70%;
   height: 600px;
 
-  background-color: rgb(94, 84, 84);
+  border: 2px solid green;
 }
 
-.someContent1 {
-  height: 200px;
-
-  text-align: center;
-
-
-  background-color: rgb(157, 149, 149);
-}
-
-.someContent2Grid{
+.aside{
+  width: 30%;
   height: 400px;
 
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2fr);
-
-  background-color: rgb(233, 232, 232);
-  color: black;
-}
-
-
-.shops-logos{
-  height: 260px;
-
-  text-align: center;
-
-  background-color: cadetblue;
-}
-
-.photo-grid{
-  height: max-content;
-  width: max-content;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
-
-  background-color: rgb(158, 125, 108);
-}
-
-.img-gallery{
-  height: 200px;
-  width: 200px;
-
-  border: 1px solid black;
-}
-
-.subscribe{
-  height: 300px;
-
-  background-color: rgb(100, 80, 70);
-}
-
-.footer{
-  height: 250px;
-
-  background-color: rgb(106, 209, 190);
+  border: 2px solid red;
 }
