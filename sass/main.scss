@@ -11,49 +11,54 @@ body{
 
 }
 
-.section-1 {
-  height: max-content;
-  width: 100vw;
-  text-align: center;
-  font-size: 2rem;
+nav{
+  margin: 0 auto;
+  max-width: 1390px;
+  height: fit-content;
   border-bottom: 2px solid white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.title{
-  width: 100vw;
-  text-align: center;
+
+nav ul li{
+  display: inline-block;
 }
 
-.links{
-  width: 100vw;
-  text-align: center;
-}
-
-.links ul li {
+.lang-change,ul{
   display: inline-block;
 }
 
 .container{
+  width: 1024px;
+  height: fit-content;
   margin: 0 auto;
-    width: 80vw;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
 
-    border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+
+  border: 2px solid pink;
 }
 
-.main-section{
-  width: 70%;
-  height: 600px;
+.left{
+  width: 40%;
 
   border: 2px solid green;
+
 }
 
-.aside{
-  width: 30%;
-  height: 400px;
-
+.right{
+  width: 60%;
   border: 2px solid red;
 }
+
+.right-content{
+  height: 500px;
+  width: 80%;
+  margin: 10px auto;
+  background-color: yellow;
+  
+}
+
