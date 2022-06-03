@@ -12,9 +12,9 @@ body{
 }
 
 nav{
-  margin: 0 auto;
-  max-width: 1390px;
-  height: fit-content;
+  margin: 10px auto;
+  max-width: 1140px;
+  height: 150px;
   border-bottom: 2px solid white;
 
   display: flex;
@@ -31,6 +31,14 @@ nav ul li{
   display: inline-block;
 }
 
+.hero-img{
+  width: 100vw;
+  height: 500px;
+
+  background-color: yellow;
+}
+
+
 .container{
   width: 1024px;
   height: fit-content;
@@ -42,23 +50,38 @@ nav ul li{
   border: 2px solid pink;
 }
 
-.left{
-  width: 40%;
-
-  border: 2px solid green;
-
-}
 
 .right{
-  width: 60%;
+  width: 100%;
   border: 2px solid red;
 }
 
 .right-content{
-  height: 500px;
-  width: 80%;
-  margin: 10px auto;
+  // height: 500px;
+  width: 100%;
+  margin: 10px 0;
   background-color: yellow;
   
 }
 
+.info{
+  height: 460px;
+}
+
+.adds{
+  height: 200px;
+}
+
+footer{
+  width: 100vw;
+  height: 300px;
+
+  background-color: rgba(255, 255, 0, 0.422);
+}
+
+.footer-info{
+  margin: 10px auto;
+  height: 100%;
+  width: 1024px;
+  border:2px solid red;
+}
