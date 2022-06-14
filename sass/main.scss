@@ -1,124 +1,27 @@
-
 *{
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-body{
-  background-color: rgb(33, 33, 33);
-  color: rgb(255, 255, 255);
-
+.togglOn{
+  display: block;
 }
 
-.container{
-  height: max-content;
-  width: 1024px;
-
-  margin: 0 auto ;
-
-  border: 2px solid rgb(255, 255, 255) ;
+.toggleOff{
+  display: none;
 }
 
-.header {
-  height: 80px;
-
-  background-color: rgb(92, 92, 92);
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo{
-  width: 100px;
-  height: 80px;
-
-  background-color: red;
-}
-
-.title{
-  width: 100px;
-  height: 80px;
-
-  background-color: green;
-}
-
-.mainManu{
-  width: 100%;
-  background-color: yellow;
-}
-
-.search-icon{
-  width: 40px;
-  height: 40px;
+.cont{
+  background-color: silver;
   
-  background-color: blue;
 }
 
-.hero-video{
-  height: 600px;
-
-  background-color: rgb(94, 84, 84);
+.toggler1{
+  font-size: 3rem;
+}
+.toggler2{
+  font-size: 3rem;
+  height: 100vh;
 }
 
-.someContent1 {
-  height: 200px;
-
-  text-align: center;
-
-
-  background-color: rgb(157, 149, 149);
-}
-
-.someContent2Grid{
-  height: 400px;
-
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2fr);
-
-  background-color: rgb(233, 232, 232);
-  color: black;
-}
-
-
-.shops-logos{
-  height: 260px;
-
-  text-align: center;
-
-  background-color: cadetblue;
-}
-
-.photo-grid{
-  height: max-content;
-  width: max-content;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
-
-  background-color: rgb(158, 125, 108);
-}
-
-.img-gallery{
-  height: 200px;
-  width: 200px;
-
-  border: 1px solid black;
-}
-
-.subscribe{
-  height: 300px;
-
-  background-color: rgb(100, 80, 70);
-}
-
-.footer{
-  height: 250px;
-
-  background-color: rgb(106, 209, 190);
-}
