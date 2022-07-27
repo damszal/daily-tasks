@@ -8,8 +8,5 @@
     "sassr": "sass -w ./sass/main.scss ./css/main.css "
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    
-  }
+  "license": "ISC"
 }

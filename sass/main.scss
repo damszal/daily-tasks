@@ -5,36 +5,7 @@
     list-style: none;
 }
 
-body{
-    overflow: hidden;
-}
 
-.top-bar{
-    width: 100vw;
-    margin: 0 auto;
-    background-color: #EE1A1A;
-    text-transform: uppercase;
-    color: rgb(252, 252, 252);
-    font-size: 2rem;
-}
 
-.top-bar__list{
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0.2rem 0 ;
-}
-
-.top-bar__el{
-    display: inline-block;
-}
-
-.logo {
-    border: 5px solid black;
-    height: 200px;
-    width: 80vw;
-    transform: skew(-25deg);
-    margin-left: 60vw;
-    margin-top: 2rem;
-  }
 
   
